@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1440,900">
+  <displayList>
+    <component id="n0_f7k8" name="Player" src="f7k81" fileName="ButtonPlayer.xml" xy="0,0" size="120,150">
+      <Button title="Player"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="bz095opy">
+  <resources>
+    <component id="gwgg0" name="SceneMain.xml" path="/" exported="true"/>
+    <component id="f7k81" name="ButtonPlayer.xml" path="/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

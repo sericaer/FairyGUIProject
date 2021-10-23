@@ -1,0 +1,33 @@
+package.xml|257|<packageDescription id="4ja1cdfs" name="SingleButton">
+  <resources>
+    <component id="yrh71" name="Button1" path="/" size="100,20"/>
+    <component id="wefi0" name="Component1" path="/" size="800,600" exported="true"/>
+  </resources>
+</packageDescription>wefi0.xml|327|<component size="800,600">
+  <displayList>
+    <component id="n0_yrh7" name="Button1" src="yrh71" xy="0,0" size="100,120">
+      <Button title="测试"/>
+    </component>
+    <text id="n1_smdy" name="TextValue" xy="121,222" size="25,19" fontSize="12" vars="true" singleLine="true" text="{value=100}"/>
+  </displayList>
+</component>yrh71.xml|1090|<component size="100,20" extention="Button">
+  <Button/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <displayList>
+    <graph id="n0_yrh7" name="n0" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#F0F0F0" touchable="false">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n1_yrh7" name="n1" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#FAFAFA" touchable="false">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <graph id="n2_yrh7" name="n2" xy="0,0" size="100,20" type="rect" lineSize="0" fillColor="#CCCCCC" touchable="false">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </graph>
+    <text id="n3_yrh7" name="title" xy="0,0" size="100,20" fontSize="12" autoSize="none" align="center" vAlign="middle" singleLine="true">
+      <relation target="" sidePair="width,height"/>
+    </text>
+  </displayList>
+</component>
